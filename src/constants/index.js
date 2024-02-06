@@ -216,6 +216,7 @@ const projects = [
             },
         ],
         image: carrent,
+        live_link: 'https://tailwindcss.com/',
         source_code_link: "https://github.com/",
     },
     {
