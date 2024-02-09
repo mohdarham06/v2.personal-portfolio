@@ -1,18 +1,16 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
     html,
     css,
+    javascript,
+    typescript,
     reactjs,
-    redux,
+    nextjs,
+    bootstrap,
     tailwind,
+    redux,
+    git,
     nodejs,
     mongodb,
-    git,
     figma,
     docker,
     meta,
@@ -40,24 +38,6 @@ export const navLinks = [
     },
 ];
 
-const services = [
-    {
-        title: "Web Developer",
-        icon: web,
-    },
-    {
-        title: "React Native Developer",
-        icon: mobile,
-    },
-    {
-        title: "Backend Developer",
-        icon: backend,
-    },
-    {
-        title: "Content Creator",
-        icon: creator,
-    },
-];
 
 const technologies = [
     {
@@ -81,38 +61,46 @@ const technologies = [
         icon: reactjs,
     },
     {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
-    {
-        name: "Tailwind CSS",
-        icon: tailwind,
-    },
-    {
-        name: "Node JS",
-        icon: nodejs,
-    },
-    {
-        name: "MongoDB",
-        icon: mongodb,
+        name: "Next JS",
+        icon: nextjs,
     },
     {
         name: "Three JS",
         icon: threejs,
     },
     {
-        name: "git",
+        name: "Bootstrap",
+        icon: bootstrap,
+    },
+    {
+        name: "Tailwind CSS",
+        icon: tailwind,
+    },
+    {
+        name: "Git",
         icon: git,
     },
     {
-        name: "figma",
+        name: "Figma",
         icon: figma,
     },
-    {
-        name: "docker",
-        icon: docker,
-    },
 ];
+// {
+//     name: "Redux Toolkit",
+//     icon: redux,
+// },
+// {
+//     name: "Node JS",
+//     icon: nodejs,
+// },
+// {
+//     name: "MongoDB",
+//     icon: mongodb,
+// },
+// {
+//     name: "docker",
+//     icon: docker,
+// },
 
 const experiences = [
     {
@@ -169,98 +157,164 @@ const experiences = [
     },
 ];
 
-const testimonials = [
-    {
-        testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-        testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-        testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-];
+
+
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "CoinTrace",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "React.js Web App providing real-time cryptocurrency data and visualizations. Stay updated on prices, market info, and more with its user-friendly interface and responsive design.",
         tags: [
             {
-                name: "react",
-                color: "blue-text-gradient",
+                name: "Reactjs",
+                color: "custom-blue-text",
             },
             {
-                name: "mongodb",
-                color: "green-text-gradient",
+                name: "API",
+                color: "custom-green-text",
             },
             {
-                name: "tailwind",
-                color: "pink-text-gradient",
+                name: "JavaScript",
+                color: "custom-pink-text",
+            },
+            {
+                name: "CSS",
+                color: "custom-blue-text",
+            },
+            {
+                name: "Html",
+                color: "custom-green-text",
             },
         ],
         image: carrent,
-        live_link: 'https://tailwindcss.com/',
-        source_code_link: "https://github.com/",
+        live_link: "https://cryptocointrace.netlify.app",
+        source_code_link: "https://github.com/mohdarham06/cointrace",
     },
     {
-        name: "Job IT",
+        name: "Tangles — Social Media",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Social Media Web App with a rich UI, offering seamless content exploration, user search, notifications, bookmarking, personalized profiles, and customizable themes on any device.",
         tags: [
             {
-                name: "react",
-                color: "blue-text-gradient",
+                name: "Reactjs",
+                color: "custom-blue-text",
             },
             {
-                name: "restapi",
-                color: "green-text-gradient",
+                name: "JavaScript",
+                color: "custom-green-text",
             },
             {
-                name: "scss",
-                color: "pink-text-gradient",
+                name: "Html",
+                color: "custom-pink-text",
+            },
+            {
+                name: "CSS",
+                color: "custom-blue-text",
             },
         ],
         image: jobit,
-        source_code_link: "https://github.com/",
+        live_link: "https://tangles.netlify.app",
+        source_code_link: "https://github.com/mohdarham06/tangles",
     },
     {
-        name: "Trip Guide",
+        name: "PasswordSnap",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "Sleek and efficient password generator app. Customize length and characters effortlessly. Copy generated passwords with a click.",
         tags: [
             {
-                name: "nextjs",
-                color: "blue-text-gradient",
+                name: "Reactjs",
+                color: "custom-blue-text",
             },
             {
-                name: "supabase",
-                color: "green-text-gradient",
+                name: "Tailwind CSS",
+                color: "custom-green-text",
             },
             {
-                name: "css",
-                color: "pink-text-gradient",
+                name: "JavaScript",
+                color: "custom-pink-text",
+            },
+            {
+                name: "Html",
+                color: "custom-blue-text",
             },
         ],
         image: tripguide,
-        source_code_link: "https://github.com/",
+        live_link: "https://passwordsnap.netlify.app",
+        source_code_link: "https://github.com/mohdarham06/passwordsnap",
     },
+    {
+        name: "TaskStacker",
+        description:
+            "A web app for managing your to-do list. Create, edit, mark as completed and save data with ease",
+        tags: [
+            {
+                name: "Html",
+                color: "custom-blue-text",
+            },
+            {
+                name: "CSS",
+                color: "custom-green-text",
+            },
+            {
+                name: "JavaScript",
+                color: "custom-pink-text",
+            },
+        ],
+        image: tripguide,
+        live_link: "https://taskstacker.netlify.app",
+        source_code_link: "https://github.com/mohdarham06/taskstacker",
+    },
+    {
+        name: "Youtube Player",
+        description:
+            "Lightweight Youtube video player focused on video and volume controls proficiency.",
+        tags: [
+            {
+                name: "Html",
+                color: "custom-blue-text",
+            },
+            {
+                name: "CSS",
+                color: "custom-green-text",
+            },
+            {
+                name: "JavaScript",
+                color: "custom-pink-text",
+            },
+        ],
+        image: tripguide,
+        live_link: "https://youtube-player19.netlify.app",
+        source_code_link: "https://github.com/mohdarham06/youtube-player",
+    },
+
+
+
+    // {
+    //     name: "Simon Game",
+    //     description:
+    //         "A classic memory and pattern recognition game. Click 'Start' to begin, memorize, and repeat the sequence of colors/sounds.",
+    //     tags: [
+    //         {
+    //             name: "Html",
+    //             color: "custom-blue-text",
+    //         },
+    //         {
+    //             name: "CSS",
+    //             color: "custom-green-text",
+    //         },
+    //         {
+    //             name: "JavaScript",
+    //             color: "custom-pink-text",
+    //         },
+    //     ],
+    //     image: tripguide,
+    //     live_link: "https://simon-sonic.netlify.app",
+    //     source_code_link: "https://github.com/mohdarham06/simon-game",
+    // },
+
+
+
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { technologies, experiences, projects };

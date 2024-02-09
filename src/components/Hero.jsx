@@ -9,6 +9,8 @@ import { styles } from '../styles';
 const Hero = () => {
     return (
         <section className=" relative w-full h-screen mx-auto">
+            <span id="home">
+            </span>
 
             <div className={
                 `${styles.paddingX} absolute inset-0 top-[120px] 

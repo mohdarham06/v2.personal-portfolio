@@ -1,11 +1,11 @@
 import React from 'react'
-
 import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
 
-import { styles } from "../styles";
+import { styles } from '../styles';
 import { github, visitlink } from '../assets';
 import { projects } from '../constants';
+
 import { fadeIn, textVariant } from '../utils/motion';
 
 import { SectionWrapper } from '../hoc';
@@ -17,7 +17,7 @@ const ProjectCard = ({
 
     return (
         <motion.div
-            variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+            variants={fadeIn("right", "spring", index * 0.5, 0.75)}
         >
             <Tilt
                 options={{
@@ -25,40 +25,45 @@ const ProjectCard = ({
                     scale: 1,
                     speed: 450
                 }}
-                className="bg-tertiary p-5 rounded-2xl sm:w-[400px] w-full"
+                className="bg-tertiary p-5 rounded-2xl xl:w-[360px] lg:w-[380px] md:w-[360px] w-full"
             >
+
                 <div className="relative w-full h-[230px]">
+
                     <img
                         src={image}
                         alt={name}
                         className='w-full h-full object-cover rounded-2xl'
                     />
 
-
                     <div className='absolute inset-0 flex justify-end m-3 gap-2 card-img_hover'>
-                        <a
-                            href={source_code_link} target="_blank" rel="noopener noreferrer"
-                            className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+                        <div
+                            onClick={() => window.open(source_code_link, "_blank")}
+
+                            className='black-gradient w-10 h-10 rounded-full 
+                            flex justify-center items-center cursor-pointer'
                         >
                             <img
                                 src={github}
                                 alt='source code'
                                 className='w-1/2 h-1/2 object-contain'
                             />
-                        </a>
+                        </div>
 
-                        <a
-                            href={live_link} target="_blank" rel="noopener noreferrer"
-                            className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+                        <div
+                            onClick={() => window.open(live_link, "_blank")}
+                            className='black-gradient w-10 h-10 rounded-full 
+                             flex justify-center items-center cursor-pointer'
                         >
                             <img
                                 src={visitlink}
                                 alt='live demo'
                                 className='w-1/2 h-1/2 object-contain'
                             />
-                        </a>
+                        </div>
                     </div>
                 </div>
+
 
                 <div className='mt-5'>
                     <h3 className='text-white font-bold text-[24px]'>{name}</h3>
@@ -80,7 +85,8 @@ const ProjectCard = ({
     )
 }
 
-const Works = () => {
+
+const Work = () => {
     return (
         <>
             <motion.div variants={textVariant()}>
@@ -89,12 +95,10 @@ const Works = () => {
                 <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
             </motion.div>
 
-
             <div className="w-full flex">
-
                 <motion.p
                     variants={fadeIn("", "", 0.1, 1)}
-                    className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+                    className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
                 >
                     Following projects showcases my skills and experience through
                     real-world examples of my work. Each project is briefly described with
@@ -103,7 +107,6 @@ const Works = () => {
                     and manage projects effectively.
                 </motion.p>
             </div>
-
 
             <div className="mt-20 flex flex-wrap gap-7">
                 {projects.map((project, index) => (
@@ -114,10 +117,8 @@ const Works = () => {
                     />
                 ))}
             </div>
-
-
         </>
     )
 }
 
-export default SectionWrapper(Works, "work")
+export default SectionWrapper(Work, "work", 0.1)
