@@ -4,35 +4,38 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
-import git from "./tech/git.png";
 import html from "./tech/html.png";
+import css from "./tech/css.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
+import typescript from "./tech/typescript.png";
 import reactjs from "./tech/reactjs.png";
 import nextjs from "./tech/nextjs.png";
-import redux from "./tech/redux.png";
+import threejs from "./tech/threejs.svg";
 import bootstrap from "./tech/bootstrap.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import git from "./tech/git.png";
+import figma from "./tech/figma.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import mongodb from "./tech/mongodb.png";
+import nodejs from "./tech/nodejs.png";
+import redux from "./tech/redux.png";
+import docker from "./tech/docker.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import school from "./company/school.png";
+import frontend from "./company/frontend.png";
+import english from "./company/english.png";
+import college from "./company/college.png";
+
+import cointrace from "./projects/cointrace.png";
+import tangles from "./projects/tangles.png";
+import passwordsnap from "./projects/passwordsnap.png";
+import taskstacker from "./projects/taskstacker.png";
+import youtubeplayer from "./projects/youtubeplayer.png";
 
 export {
   logo,
-  visitlink,
   github,
+  visitlink,
   menu,
   close,
   css,
@@ -50,11 +53,14 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  school,
+  frontend,
+  college,
+  english,
+  
+  cointrace,
+  tangles,
+  passwordsnap,
+  taskstacker,
+  youtubeplayer
 };
