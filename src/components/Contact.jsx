@@ -2,6 +2,7 @@ import React from 'react'
 
 import { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
+import emailjs from '@emailjs/browser';
 
 import { styles } from '../styles';
 import { EarthCanvas } from './canvas';
@@ -35,6 +36,35 @@ const Contact = () => {
         setLoading(true);
 
         console.log(form)
+        emailjs.send(
+            'service_6l8v7wg',
+            'template_erhtv9g',
+            {
+                from_name: form.name,
+                to_name: 'Arham',
+                from_email: form.email,
+                to_email: 'mohdarham0634@gmail.com',
+                message: form.message,
+            },
+            'fsyB4JmUqRLaGmetq'
+        )
+            .then(() => {
+                setLoading(false);
+                setForm({
+                    name: "",
+                    email: "",
+                    message: "",
+                })
+
+                alert('Thank you. I will get back to you as soon as possible.');
+            }, (error) => {
+                setLoading(false);
+
+                console.log(error);
+
+                alert('Something went wrong.');
+            })
+
     }
 
 

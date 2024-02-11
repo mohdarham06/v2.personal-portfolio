@@ -130,18 +130,18 @@ const experiences = [
             "Built numerous cool projects, overcoming challenges and gaining hands-on experience.",
         ],
     },
-    {
-        title: "Speak English Proficiently",
-        company_name: "Georgia Institute of Technology",
-        icon: english,
-        iconBg: "#ffffff",
-        date: "2023 October - 2023 December",
-        points: [
-            "Completed English proficiency program at Georgia Tech on Coursera.",
-            "Focused on enhancing verbal and written communication skills.",
-            "Achieved proficiency for effective communication in professional and academic contexts.",
-        ],
-    },
+    // {
+    //     title: "Speak English Proficiently",
+    //     company_name: "Georgia Institute of Technology",
+    //     icon: english,
+    //     iconBg: "#ffffff",
+    //     date: "2023 October - 2023 December",
+    //     points: [
+    //         "Completed English proficiency program at Georgia Tech on Coursera.",
+    //         "Focused on enhancing verbal and written communication skills.",
+    //         "Achieved proficiency for effective communication in professional and academic contexts.",
+    //     ],
+    // },
     {
         title: "Bachelor in Computer Science",
         company_name: "Manipal University Jaipur",
