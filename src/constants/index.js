@@ -165,24 +165,24 @@ const projects = [
             "React.js Web App providing real-time cryptocurrency data and visualizations. Stay updated on prices, market info, and more with its user-friendly interface and responsive design.",
         tags: [
             {
-                name: "Reactjs",
-                color: "custom-blue-text",
+                name: "ReactJs",
+                color: "custom-black-bg-text",
             },
             {
                 name: "API",
-                color: "custom-green-text",
+                color: "custom-black-bg-text",
             },
             {
                 name: "JavaScript",
-                color: "custom-pink-text",
+                color: "custom-black-bg-text",
+            },
+            {
+                name: "HTML",
+                color: "custom-black-bg-text",
             },
             {
                 name: "CSS",
-                color: "custom-blue-text",
-            },
-            {
-                name: "Html",
-                color: "custom-green-text",
+                color: "custom-black-bg-text",
             },
         ],
         image: cointrace,
@@ -195,20 +195,20 @@ const projects = [
             "Social Media Web App with a rich UI, offering seamless content exploration, user search, notifications, bookmarking, personalized profiles, and customizable themes on any device.",
         tags: [
             {
-                name: "Reactjs",
-                color: "custom-blue-text",
+                name: "ReactJs",
+                color: "custom-black-bg-text",
             },
             {
                 name: "JavaScript",
-                color: "custom-green-text",
+                color: "custom-black-bg-text",
             },
             {
-                name: "Html",
-                color: "custom-pink-text",
+                name: "HTML",
+                color: "custom-black-bg-text",
             },
             {
                 name: "CSS",
-                color: "custom-blue-text",
+                color: "custom-black-bg-text",
             },
         ],
         image: tangles,
@@ -221,20 +221,20 @@ const projects = [
             "Sleek and efficient password generator app. Customize length and characters effortlessly. Copy generated passwords with a click.",
         tags: [
             {
-                name: "Reactjs",
-                color: "custom-blue-text",
+                name: "ReactJs",
+                color: "custom-black-bg-text",
             },
             {
                 name: "Tailwind CSS",
-                color: "custom-green-text",
+                color: "custom-black-bg-text",
             },
             {
                 name: "JavaScript",
-                color: "custom-pink-text",
+                color: "custom-black-bg-text",
             },
             {
-                name: "Html",
-                color: "custom-blue-text",
+                name: "HTML",
+                color: "custom-black-bg-text",
             },
         ],
         image: passwordsnap,
@@ -247,16 +247,16 @@ const projects = [
             "A web app for managing your to-do list. Create, edit, mark as completed and save data with ease",
         tags: [
             {
-                name: "Html",
-                color: "custom-blue-text",
+                name: "HTML",
+                color: "custom-black-bg-text",
             },
             {
                 name: "CSS",
-                color: "custom-green-text",
+                color: "custom-black-bg-text",
             },
             {
                 name: "JavaScript",
-                color: "custom-pink-text",
+                color: "custom-black-bg-text",
             },
         ],
         image: taskstacker,
@@ -269,16 +269,16 @@ const projects = [
             "Lightweight Youtube video player focused on video and volume controls proficiency.",
         tags: [
             {
-                name: "Html",
-                color: "custom-blue-text",
+                name: "HTML",
+                color: "custom-black-bg-text",
             },
             {
                 name: "CSS",
-                color: "custom-green-text",
+                color: "custom-black-bg-text",
             },
             {
                 name: "JavaScript",
-                color: "custom-pink-text",
+                color: "custom-black-bg-text",
             },
         ],
         image: youtubeplayer,
@@ -291,19 +291,19 @@ const projects = [
     // {
     //     name: "Simon Game",
     //     description:
-    //         "A classic memory and pattern recognition game. Click 'Start' to begin, memorize, and repeat the sequence of colors/sounds.",
+    //         "A classic memory and pattern recognition game. Click 'Start' to begin, memorize, and repeat the sequence of colors/scustom-black-bg-text ounds.",
     //     tags: [
     //         {
-    //             name: "Html",
-    //             color: "custom-blue-text",
+    //             name: "HTML",
+    //             color: "custom-black-bg-text",
     //         },
     //         {
     //             name: "CSS",
-    //             color: "custom-green-text",
+    //             color: "custom-black-bg-text",
     //         },
     //         {
     //             name: "JavaScript",
-    //             color: "custom-pink-text",
+    //             color: "custom-black-bg-text",
     //         },
     //     ],
     //     image: passwordsnap,
