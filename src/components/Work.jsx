@@ -73,7 +73,7 @@ const ProjectCard = ({
                 <div className='mt-4 flex flex-wrap gap-2'>
                     {tags.map((tag) => (
                         <p
-                            key={`${name}-${tag.name}`}
+                            key={`${tag.name}`}
                             className={`text-[13px] ${tag.color}`}
                         >
                             {tag.name}
@@ -86,7 +86,7 @@ const ProjectCard = ({
 }
 
 
-const Work = () => {
+const Work = ({ openProjectsModal }) => {
     return (
         <>
             <motion.div variants={textVariant()}>
@@ -94,6 +94,7 @@ const Work = () => {
 
                 <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
             </motion.div>
+
 
             <div className="w-full flex">
                 <motion.p
@@ -106,10 +107,19 @@ const Work = () => {
                     ability to solve complex problems, work with different technologies,
                     and manage projects effectively.
                 </motion.p>
+
             </div>
 
+
+            <button
+                className='projects-modal-btn mt-4 font-medium'
+                onClick={openProjectsModal}
+            >
+                View the Archive
+            </button>
+
             <div className="mt-20 flex flex-wrap gap-7">
-                {projects.map((project, index) => (
+                {projects.slice(0, 5).map((project, index) => (
                     <ProjectCard
                         key={`project-${index}`}
                         index={index}
@@ -117,8 +127,10 @@ const Work = () => {
                     />
                 ))}
             </div>
+
+
         </>
     )
 }
 
-export default SectionWrapper(Work, "work", 0.1)
+export default SectionWrapper(Work, "work", 0.1);

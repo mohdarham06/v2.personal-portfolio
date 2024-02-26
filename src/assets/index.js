@@ -28,6 +28,7 @@ import college from "./company/college.png";
 
 import cointrace from "./projects/cointrace.png";
 import tangles from "./projects/tangles.png";
+import promptopia from "./projects/promptopia.png";
 import passwordsnap from "./projects/passwordsnap.png";
 import taskstacker from "./projects/taskstacker.png";
 import youtubeplayer from "./projects/youtubeplayer.png";
@@ -36,31 +37,37 @@ export {
   logo,
   github,
   visitlink,
+
   menu,
   close,
-  css,
-  docker,
-  figma,
-  git,
+
   html,
+  css,
   javascript,
+  typescript,
+  reactjs,
+  docker,
+  nextjs,
+  threejs,
   bootstrap,
+  tailwind,
+  git,
+  figma,
+
   mongodb,
   nodejs,
-  reactjs,
-  nextjs,
   redux,
-  tailwind,
-  typescript,
-  threejs,
+
+
   school,
   frontend,
-  college,
   english,
+  college,
   
   cointrace,
   tangles,
   passwordsnap,
+  promptopia,
   taskstacker,
   youtubeplayer
 };

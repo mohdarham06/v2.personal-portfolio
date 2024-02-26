@@ -18,13 +18,15 @@ import {
 
     cointrace,
     tangles,
+    promptopia,
     passwordsnap,
+    youtubeplayer,
     taskstacker,
+
     nodejs,
     redux,
     docker,
     mongodb,
-    youtubeplayer,
 } from "../assets";
 
 export const navLinks = [
@@ -216,6 +218,32 @@ const projects = [
         source_code_link: "https://github.com/mohdarham06/tangles",
     },
     {
+        name: "Promptopia",
+        description:
+            "Prompt sharing platform crafted with Next.js, featuring secure user authentication and efficient MongoDB integration. Effortlessly explore and share creative prompts.",
+        tags: [
+            {
+                name: "NextJs",
+                color: "custom-black-bg-text",
+            },
+            {
+                name: "NextAuth",
+                color: "custom-black-bg-text",
+            },
+            {
+                name: "MongoDB",
+                color: "custom-black-bg-text",
+            },
+            {
+                name: "Tailwind CSS",
+                color: "custom-black-bg-text",
+            },
+        ],
+        image: promptopia,
+        live_link: "https://promptopia06.vercel.app",
+        source_code_link: "https://github.com/mohdarham06/promptopia",
+    },
+    {
         name: "PasswordSnap",
         description:
             "Sleek and efficient password generator app. Customize length and characters effortlessly. Copy generated passwords with a click.",
@@ -242,28 +270,6 @@ const projects = [
         source_code_link: "https://github.com/mohdarham06/passwordsnap",
     },
     {
-        name: "TaskStacker",
-        description:
-            "A web app for managing your to-do list. Create, edit, mark as completed and save data with ease",
-        tags: [
-            {
-                name: "HTML",
-                color: "custom-black-bg-text",
-            },
-            {
-                name: "CSS",
-                color: "custom-black-bg-text",
-            },
-            {
-                name: "JavaScript",
-                color: "custom-black-bg-text",
-            },
-        ],
-        image: taskstacker,
-        live_link: "https://taskstacker.netlify.app",
-        source_code_link: "https://github.com/mohdarham06/taskstacker",
-    },
-    {
         name: "Youtube Player",
         description:
             "Lightweight Youtube video player focused on video and volume controls proficiency.",
@@ -285,34 +291,74 @@ const projects = [
         live_link: "https://youtube-player19.netlify.app",
         source_code_link: "https://github.com/mohdarham06/youtube-player",
     },
+    {
+        name: "V1 Portfolio",
+        description:
+            "My first personal portfolio website.",
+        tags: [
+            {
+                name: "HTML",
+                color: "custom-black-bg-text",
+            },
+            {
+                name: "CSS",
+                color: "custom-black-bg-text",
+            },
+            {
+                name: "JavaScript",
+                color: "custom-black-bg-text",
+            },
+        ],
+        image: taskstacker,
+        live_link: "https://v1-mohdarham.netlify.app/",
+        source_code_link: "https://github.com/mohdarham06/v1.personal-portfolio",
+    },
+    {
+        name: "TaskStacker",
+        description:
+            "A web app for managing your to-do list. Create, edit, mark as completed and save data with ease",
+        tags: [
+            {
+                name: "HTML",
+                color: "custom-black-bg-text",
+            },
+            {
+                name: "CSS",
+                color: "custom-black-bg-text",
+            },
+            {
+                name: "JavaScript",
+                color: "custom-black-bg-text",
+            },
+        ],
+        image: taskstacker,
+        live_link: "https://taskstacker.netlify.app",
+        source_code_link: "https://github.com/mohdarham06/taskstacker",
+    },
 
-
-
-    // {
-    //     name: "Simon Game",
-    //     description:
-    //         "A classic memory and pattern recognition game. Click 'Start' to begin, memorize, and repeat the sequence of colors/scustom-black-bg-text ounds.",
-    //     tags: [
-    //         {
-    //             name: "HTML",
-    //             color: "custom-black-bg-text",
-    //         },
-    //         {
-    //             name: "CSS",
-    //             color: "custom-black-bg-text",
-    //         },
-    //         {
-    //             name: "JavaScript",
-    //             color: "custom-black-bg-text",
-    //         },
-    //     ],
-    //     image: passwordsnap,
-    //     live_link: "https://simon-sonic.netlify.app",
-    //     source_code_link: "https://github.com/mohdarham06/simon-game",
-    // },
-
-
-
+    {
+        name: "Simon Game",
+        description:
+            "A classic memory and pattern recognition game. Click 'Start' to begin, memorize, and repeat the sequence of colors/sounds. The game gets trickier as you succeed.",
+        tags: [
+            {
+                name: "HTML",
+                color: "custom-black-bg-text",
+            },
+            {
+                name: "CSS",
+                color: "custom-black-bg-text",
+            },
+            {
+                name: "JavaScript",
+                color: "custom-black-bg-text",
+            },
+        ],
+        image: taskstacker,
+        live_link: "https://simon-sonic.netlify.app",
+        source_code_link: "https://github.com/mohdarham06/simon-game",
+    },
+   
 ];
 
 export { technologies, experiences, projects };
