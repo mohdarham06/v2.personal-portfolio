@@ -6,10 +6,19 @@ import {
     reactjs,
     nextjs,
     threejs,
+    nodejs,
+    expressjs,
+    mongodb,
+    mysql,
     bootstrap,
     tailwind,
     git,
     figma,
+
+
+
+    redux,
+    docker,
 
     school,
     frontend,
@@ -23,10 +32,6 @@ import {
     youtubeplayer,
     taskstacker,
 
-    nodejs,
-    redux,
-    docker,
-    mongodb,
 } from "../assets";
 
 export const navLinks = [
@@ -73,6 +78,22 @@ const technologies = [
     {
         name: "Three JS",
         icon: threejs,
+    },
+    {
+        name: "Node JS",
+        icon: nodejs,
+    },
+    {
+        name: "Express JS",
+        icon: expressjs,
+    },
+    {
+        name: "Mongo DB",
+        icon: mongodb,
+    },
+    {
+        name: "My SQL",
+        icon: mysql,
     },
     {
         name: "Bootstrap",
@@ -358,7 +379,7 @@ const projects = [
         live_link: "https://simon-sonic.netlify.app",
         source_code_link: "https://github.com/mohdarham06/simon-game",
     },
-   
+
 ];
 
 export { technologies, experiences, projects };
